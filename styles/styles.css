@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+}
+
+.overlay-img{
+    opacity: 0.9;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.bg-image{
+    background-image: url('../resources/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.6;
+}
+
+
+
