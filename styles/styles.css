@@ -1,10 +1,11 @@
 body{
     background-image: url(../resources/bg.jpg);
+    width: 100vw;
+    height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-color: #000;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -13,5 +14,22 @@ body{
     padding: 0;
 }
 
+#wrapper {
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.342);
+    width: 100vw;
+    height: 88vh;
+    align-content: center;
+  }
 
+ 
+  @media (max-width: 600px){
+    #buttonai{
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  }
 
