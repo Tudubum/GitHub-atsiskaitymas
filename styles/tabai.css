@@ -88,8 +88,9 @@ iframe{
 
 
   @media (max-width: 480px){
-    .buttonai{
+    #buttonai{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
     }
     button{
