@@ -54,28 +54,6 @@ contactSpan.onclick = function() {
   }
 
 // Kai paspaudžiamas bet kur kitur už modalo, modalas uždaromas
-/*
-window.onclick = function(event) {
-  if (event.target == myModal) {
-    myModal.style.display = "none";
-  }
-}
-window.onclick = function(event) {
-  if (event.target == workModal) {
-    workModal.style.display = "none";
-  }
-}
-window.onclick = function(event) {
-  if (event.target == aboutModal) {
-    aboutModal.style.display = "none";
-  }
-}
-window.onclick = function(event) {
-  if (event.target == contactModal) {
-    contactModal.style.display = "none";
-  }
-}
-*/
 
 window.onclick = function(event) {
     if (event.target == myModal) {
@@ -92,16 +70,5 @@ window.onclick = function(event) {
     }
   }
 
-
-
-console.log(myBtn);
-console.log(aboutBtn);
-console.log(workBtn);
-console.log(contactBtn);
-console.log(myModal);
-console.log(aboutModal);
-console.log(workModal);
-console.log(contactModal);
-  
   
   
