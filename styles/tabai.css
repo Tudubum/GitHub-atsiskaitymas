@@ -1,14 +1,98 @@
-.tabai{
+button{
     background-color: transparent;
     border: 1px solid white;
     color: white;
     min-width: 7.5rem;
     height: 2.75rem;
     line-height: 2.75rem;
-    padding: 0 1.25rem 0 1.45rem
+    padding: 0 1.25rem 0 1.45rem;
+    margin: 0;
 }
 
-.buttons{
+button:hover{
+    background-color: rgba(255, 255, 255, 0.585);
+}
+
+.hr_modal{
+    width: 70px;
+    height: 1px;
+    color: white;
+    background-color: white;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#buttonai{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
+
+.modal-content h2{
+    margin-bottom: 5px;
+}
+
+.modal-content p{
+    font-weight: 200;
+}
+iframe{
+    width: 100%;
+    height: 300px;
+}
+
+.modal-content img{
+    height: 300px;
+    width: 100%;
+}
+/* modal */
+
+.modal {
+    display: none; /* Modal nėra rodomas */
+    position: fixed; /* Modal yra fiksuotas ekrane */
+    z-index: 1; /* Modal yra ant viršaus, kad būtų matomas */
+    left: 0;
+    top: 0;
+    width: 100%; /* Plati visą ekraną */
+    height: 100%; /* Aukšta visą ekraną */
+    overflow: auto; /* Jei turinys yra ilgesnis nei ekranas, turinys rodomas su slankikliu */
+    background-color: rgb(0,0,0); /* Modal fonas yra tamsus */
+    background-color: rgba(0,0,0,0.4); /* Modal fonas yra tamsus, bet permatomas */
+  }
+  
+  /* Modal turinys */
+  .modal-content {
+    background-color: #151515d1;
+    margin: 10% auto; /* Modal yra 15% nuo viršaus ir centrinis */
+    padding: 10px 30px;
+    border: 1px solid #888;
+    width: 60%; /* Modal turinys yra 80% pločio */
+  }
+  
+  /* Mygtukas uždaryti modalą (X) */
+  .workbtnClose, .mybtnClose, .aboutbtnClose, .contactbtnClose {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .workbtnClose:hover,
+  .workbtnClose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+ 
+
+
+  @media (max-width: 480px){
+    .buttonai{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        width: 100%;
+    }
+  }
