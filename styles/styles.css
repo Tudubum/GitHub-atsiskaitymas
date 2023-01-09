@@ -3,6 +3,7 @@ body{
 }
 
 .overlay-img{
+    background-color: rgba(0, 0, 0, 0.437);
     opacity: 0.9;
     background-size: cover;
     background-position: center;
